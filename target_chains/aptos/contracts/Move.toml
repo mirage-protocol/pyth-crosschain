@@ -4,12 +4,12 @@ version = "0.0.1"
 upgrade_policy = "compatible"
 
 [dependencies]
-AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
-MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib/", rev = "testnet" }
-AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "testnet" }
-AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "testnet" }
-Wormhole = { git = "https://github.com/mirage-protocol/wormhole.git", subdir = "aptos/wormhole", rev = "testnet" }
-Deployer = { git = "https://github.com/mirage-protocol/wormhole.git", subdir = "aptos/deployer", rev = "testnet" }
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "aptos-release-v1.16" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib/", rev = "aptos-release-v1.16" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "aptos-release-v1.16" }
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev = "aptos-release-v1.16" }
+Wormhole = { git = "https://github.com/mirage-protocol/wormhole.git", subdir = "aptos/wormhole", rev = "main" }
+Deployer = { git = "https://github.com/mirage-protocol/wormhole.git", subdir = "aptos/deployer", rev = "main" }
 
 [addresses]
 pyth = "_"
